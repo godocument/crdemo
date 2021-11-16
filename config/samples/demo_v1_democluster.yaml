@@ -1,0 +1,6 @@
+apiVersion: demo.demo.godocument.com/v1
+kind: DemoCluster
+metadata:
+  name: democluster-sample
+spec:
+  # TODO(user): Add fields here

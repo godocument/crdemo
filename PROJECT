@@ -1,0 +1,17 @@
+domain: demo.godocument.com
+layout:
+- go.kubebuilder.io/v3
+multigroup: true
+projectName: crdemo
+repo: github.com/godocument/demo-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: demo.godocument.com
+  group: demo
+  kind: DemoCluster
+  path: github.com/godocument/demo-operator/apis/demo/v1
+  version: v1
+version: "3"
